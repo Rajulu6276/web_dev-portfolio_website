@@ -1,0 +1,86 @@
+/* Apply styles to the body and header */
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+header {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+/* Style the header navbar */
+.navbar {
+    padding: 1rem 0; /* Add padding to the top and bottom of the navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Increase the font size for the brand */
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Change the color of the toggler icon */
+}
+
+/* Style the first section */
+.firstSection {
+    padding: 4rem 0; /* Add padding to the top and bottom of the section */
+}
+
+.purple {
+    color: #800080; /* Define a custom purple color */
+}
+
+/* Style the second section */
+.secondsection {
+    padding: 2rem 0; /* Add padding to the top and bottom of the section */
+}
+
+.bg-magenta {
+    background-color: magenta; /* Add a background color for the horizontal rule */
+}
+
+ul {
+    list-style: none; /* Remove list bullets */
+}
+
+/* Style the main content text */
+.main-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Style the main content text within the Bootstrap container */
+.container .main-content {
+    margin-top: 2rem;
+}
+
+/* Adjust the margin of the 'container' class for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 2rem;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.custom-hr {
+    border-top: 10px solid #f6f604;
+  }
+  .profile-picture {
+    width: 600px; /* Adjust the width and height as needed */
+    height: 550px;
+    border-radius: 90%; /* Makes the image circular */
+    overflow: hidden; /* Clips the image to the circular shape */
+    border: 2px;
+    border-color: white;
+}
+  
+  .profile-picture img {
+    margin: auto;
+    width: 600px;
+    height: 550px;
+    object-fit: none; /* Ensures the image fills the circular container */
+  }
+  
